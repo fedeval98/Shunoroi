@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+--bg-color: #3B396A;
+--conic-gradient: conic-gradient(#3B396A,
+  #5E5A8C,
+  #967BA8,
+  #C3A6C4
+  );
+}
+
+@font-face {
+  font-family: 'Omori';
+  src: url('./fonts/OMORI_GAME2.ttf') format('truetype');
+}
+
+h1, h2, button {
+  font-family: 'Omori', sans-serif;
+}
