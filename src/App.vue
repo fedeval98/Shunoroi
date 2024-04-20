@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <Header />
-    <div class="flex flex-col gap-8 justify-center items-center">
+    <div class="flex flex-col gap-6 lg:gap-8 justify-center items-center">
       <Social />
     </div>
   </div>

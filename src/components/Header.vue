@@ -56,8 +56,8 @@ watch(isOnline, newValue => {
         <picture class="flex justify-center items-center flex-col">
           <img class="h-16 md:h-24 rounded-full" src="../assets/img/profile.png" alt="profile_logo" />
           <div>
-            <h2 v-if="isOnline" class="bg-green-500 px-4 text-2xl font-mono text-white font-bold rounded-full">EN DIRECTO</h2>
-            <h2 v-else class="bg-red-500 px-4 text-2xl font-mono text-white font-bold rounded-full">OFFLINE</h2>
+            <h2 v-if="isOnline" class="bg-green-500 px-4 text-lg lg:text-2xl font-mono text-white font-bold rounded-full">EN DIRECTO</h2>
+            <h2 v-else class="bg-red-500 px-4 text-lg lg:text-2xl font-mono text-white font-bold rounded-full">OFFLINE</h2>
           </div>
         </picture>
           <h1 class="text-white text-5xl md:text-6xl lg:text-8xl">Shunoroi</h1>
